@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>margin</title>
+</head>
+<body>
+
+<!-- margin: top right bottom left -->
+<div style="width: 500px; height: 300px; background-color: #ff00cc; margin: 10px 100px 200px 500px">꺄룰랭</div>
+
+</body>
+</html>

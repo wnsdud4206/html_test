@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container {
+	width: 300px;
+	border: 3px solid rgba(0,204,0,0.3); /* opacity는 자식요소에도 상속이 되기 때문에 rgba로 불투명하게 만들어 주는것을 권장*/
+	border-radius: 5px;
+	box-sizing: border-box;
+	marign: 0 auto;
+	padding: 10px;
+}
+
+.container form {
+}

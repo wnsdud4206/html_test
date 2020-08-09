@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container:not(.input6) {
+	width: 720px;
+	margin: 0 auto;
+	padding: 5px 20px;
+	border: none;
+	outline: 2px solid #ccc;
+	-webkit-transition: outline 0.5s;
+	transition: outline 0.5s;
+}
+.container:hover:not(.input6) {
+	outline: 2px solid #666;
+	-webkit-transition: outline 0.5s;
+	transition: outline 0.5s;
+}
+
+label {
+	display: block;
+	font-family: Tahoma, Geneva, sans-serif;
+	margin-bottom: 5px;
+}
+
+/*
+input:not(.input3 .input4) {
+	border: none;s
+	border-bottom: 1px solid #008000;
+}
+input {
+	width: auto;
+	box-sizing: border-box;
+	background-color: none;
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+input:hover:not(.input4) {
+	background-color: #eee;
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+input:focus:not(.input4) {
+	background-color: rgba(0,200,0,0.05);
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+.input3 {
+	border: 2px solid rgba(51,153,0,0.3);
+	border-radius: 3px;
+	//outline: 2px solid rgba(51,153,0,0.3);
+}
+
+.input4 {
+	width: 80px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+*/
+
+p:nth-child(-n+2) input {
+	border: none;
+	border-bottom: 1px solid #008000;
+}
+p:nth-child(-n+3) input {
+	width: auto;
+	box-sizing: border-box;
+	background-color: none;
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+p:nth-child(-n+3) input:hover {
+	background-color: #eee;
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+p:nth-child(-n+3) input:focus {
+	background-color: rgba(0,200,0,0.05);
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+.input3 {
+	border: 2px solid rgba(51,153,0,0.3);
+	border-radius: 3px;
+	//outline: 2px solid rgba(51,153,0,0.3);
+}
+
+#button {
+	width: 80px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align: center;
+	background-color: rgba(51,153,0,0.3);
+	border: none;
+	border-radius: 5px;
+	box-shadow: inset -2px -2px 3px rgba(0,0,0,0.2), 
+				inset 2px 2px 3px rgba(255,255,255,0.2);
+	//display: inline-block;
+}
+#button:hover {
+	box-shadow: inset -2px -2px 3px rgba(255,255,255,0.2), 
+				inset 2px 2px 3px rgba(0,0,0,0.2);
+	//background-color: rgba(51,204,0,0.5);
+}
+
+
+#but2 {
+	width: 60px;
+	display: inline-block;
+	//box-shadow: inset 2px 2px rgba(0,0,0,0.5);
+	background-color: rgba(51,153,0,0.3);
+	border: none;
+	border-radius: 5px;
+}
+.button1 {
+	margin-right: 5px;
+}
+
+
+
+

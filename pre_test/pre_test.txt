@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>pre</title>
+</head>
+<body>
+
+<!-- <pre>~</pre>태그 -->
+
+<pre>
+괜찮지
+않아도
+괜찮아
+</pre>
+<!-- <p>~</p> 태그 안에 <br> 태그 -->
+<p>
+하늘은
+언제나<br>
+푸르다
+</p>
+
+</body>
+</html>

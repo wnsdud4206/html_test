@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*.container > form > p > p {
+	display: block;
+}*/
+
+body > .container {
+	max-width: 720px;
+	height: 160px;
+	padding: 1px 15px;
+	margin: 0 auto;
+	outline: 3px solid #ccc;
+	/* 되돌아 오게끔 하려면 */
+	-webkit-transition: outline-color 0.5s;
+	transition: outline-color 0.5s;
+}
+body > .container:hover {
+	outline: 3px solid #333;
+	/* 되돌아 올 필요가 없을 때, 없어도 되는 듯 */
+	/* -webkit-transition: outline-color 0.5s;
+	transition: outline-color 0.5s; */
+}
+
+label {
+	font-family  Arial, Helvetica, sans-serif;
+}
+
+.input {
+	width: auto;
+	border: none;
+	border-bottom: 1px solid green;
+	margin-top: 3px;
+	display: block;
+	outline: none;
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+.input:hover {
+	background-color: #bbb;
+}
+.input:focus {
+	background-color: #aea;
+}
