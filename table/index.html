@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style>
+
+      table {
+        width: 300px;
+        height: 150px;
+        /* outline: 1px solid black; */
+      }
+      /* table 태그 이외에는 border 속성 적용 안됨, table property 속성으로 border 사용 가능 */
+      thead {
+        /* outline: 1px solid red; */
+      }
+      tbody {
+        /* outline: 1px solid green; */
+      }
+      tfoot {
+        /* outline: 1px solid blue; */
+      }
+      tr {
+      }
+      th {
+      }
+      /* 기본적으로 font-weight: 700; text-align: center;가 되어있다. */
+      td {
+
+      }
+      /* th와 td에 기본적으로 vartical-align: middle;이 되어있다. */
+
+    </style>
+    <title>table</title>
+  </head>
+  <body>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>브랜드</th>  <th>운영체제</th>  <th>음성인식</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>SAMSUNG</td>  <td rowspan="2">Android</td>  <td>Bixby</td>
+        </tr>
+        <tr>
+          <td>LG</td>    <td>Google</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Apple</td>  <td>ios</td>  <td>Siri</td>
+        </tr>
+      </tfoot>
+    </table>
+
+  </body>
+</html>
